@@ -12,6 +12,8 @@ const Wallet = () => {
   const { data, loading, error } = useUser();
   const [copied, setCopied] = useState(false);
 
+  const publicAddress = data?.publicAddress || '';
+
   if (loading) {
     return (
       <div className="w-screen h-screen bg-primary flex items-center justify-center">
@@ -51,7 +53,7 @@ const Wallet = () => {
             />
             <div className="h-full flex items-center justify-center px-4">
               <CopyToClipboard
-                text={data?.publicAddress}
+                text={publicAddress}
                 onCopy={() => setCopied(true)}
               >
                 <IoCopy className="cursor-pointer" />
