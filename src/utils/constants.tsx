@@ -63,7 +63,7 @@ export const walletItems: WalletProps[] = [
     perc: "+2.4%",
     margin: "$200,901.29",
     icon: <SiBitcoinsv size={20} fill="#ff9500" />,
-    graph: "src/assets/images/green-graph.png",
+    graph: "green-graph.png",
     color: "bg-[orange]/50",
     percColor: "text-[green]/100",
   },
@@ -76,7 +76,7 @@ export const walletItems: WalletProps[] = [
     lot: "5.234567",
     perc: "-1.2%",
     margin: "$16,345.67",
-    graph: "src/assets/images/red-graph.png",
+    graph: "red-graph.png",
     color: "bg-[white]/50",
     percColor: "text-[red]/100",
   },
@@ -89,7 +89,7 @@ export const walletItems: WalletProps[] = [
     lot: "10.123456",
     perc: "+0.5%",
     margin: "$1,812.34",
-    graph: "src/assets/images/green-graph.png",
+    graph: "green-graph.png",
     color: "bg-[blue]/50",
     percColor: "text-[green]/100",
   },
@@ -104,7 +104,7 @@ export const walletItems: WalletProps[] = [
     margin: "$840.20",
     color: "bg-[green]/50",
     percColor: "text-[red]/100",
-    graph: "src/assets/images/red-graph.png",
+    graph: "red-graph.png",
   },
   {
     id: crypto.randomUUID(),
@@ -117,7 +117,7 @@ export const walletItems: WalletProps[] = [
     margin: "$1,203.45",
     color: "bg-[aqua]/50",
     percColor: "text-[green]/100",
-    graph: "src/assets/images/green-graph.png",
+    graph: "green-graph.png",
   },
   {
     id: crypto.randomUUID(),
@@ -130,7 +130,7 @@ export const walletItems: WalletProps[] = [
     margin: "$2,801.73",
     color: "bg-[pink]/50",
     percColor: "text-[green]/100",
-    graph: "src/assets/images/green-graph.png",
+    graph: "green-graph.png",
   },
 ];
 

@@ -1,4 +1,4 @@
-// import { SiBitcoinsv } from "react-icons/si";
+
 
 
 export type WalletProps = {
@@ -14,8 +14,6 @@ export type WalletProps = {
     color:string,
     percColor:string
 }
-
-// const color = 'bg-[orange]/50'
 
 const WalletCard = ({icon, coin, currency, price, lot, perc, margin, graph, color, percColor} : WalletProps) => {
   return (
@@ -43,6 +41,5 @@ const WalletCard = ({icon, coin, currency, price, lot, perc, margin, graph, colo
 };
 
 export default WalletCard;
-// src\assets\images\green-graph.png
 
 
