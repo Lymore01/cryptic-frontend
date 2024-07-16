@@ -23,7 +23,7 @@ const SignUp = () => {
   const onsubmit = async (data: any) => {
     // console.log(data);
     try {
-      const res = await fetch(`/api/user/auth/register-user`, {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/user/auth/register-user`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
