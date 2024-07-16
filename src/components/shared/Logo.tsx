@@ -5,7 +5,7 @@ const Logo = () => {
     <Link to={"/home/overview"}>
       <div className="w-full mx-auto h-auto flex-start">
         <img
-          src="\src\assets\images\cryptic-logo.png"
+          src="cryptic-logo.png"
           alt="cryptic logo"
           className="w-[70%]"
         />
